@@ -29,7 +29,7 @@ const SwitchLink = ({ locale, inter }) => {
   return (
     <Link
       className={`border border-black border-y-0 px-7 flex flex-col justify-center border-opacity-75 h-20
-      ${locale === "ar" ? " border-r-0 " : ""}
+      ${locale === "ar" ? " border-r-0 " : " "}
       hover:bg-white hover:invert hover:border-0 `
       }
       href={switchLocale()}>

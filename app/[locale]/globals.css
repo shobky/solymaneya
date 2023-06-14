@@ -5,7 +5,7 @@
 :root {
   --primary: #3870ff;
   --primary-hoverd: #2856cc;
-  --inverted-primary: #C78F00;
+  --inverted-primary: #c78f00;
 }
 
 /* pangination on the hero section swiper */
@@ -14,7 +14,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   padding: 5px;
   z-index: 10;
 }
-
 
 /* Styling when the language is Arabic */
 .body-ar {

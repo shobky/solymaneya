@@ -23,7 +23,11 @@ const Header = () => {
             : " h-20  border-r-black  border-l-0"
         }    `}
       >
-        <Link className="mx-8 font-semibold text-2xl " href="/" locale={locale}>
+        <Link
+          className=" md:mx-8 font-semibold text-[1.2rem] sm:text-[1.5rem] md:text-[1.8rem] "
+          href="/"
+          locale={locale}
+        >
           {t("logo")}
         </Link>
       </h1>
@@ -31,7 +35,7 @@ const Header = () => {
         <SwitchLink inter={inter} locale={locale} />
 
         <Menu locale={locale}>
-          <Nav />
+          <Nav isHeader={true} />
         </Menu>
       </div>
     </header>

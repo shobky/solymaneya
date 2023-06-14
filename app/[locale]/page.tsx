@@ -15,30 +15,26 @@ export default function Home() {
   const caroucelSlides = [
     {
       src: heroimg1,
-      title: t("catLinkServices"),
-      slogan: "Unmatched Quality, Exceptional Craftsmanship, Reliable Results",
+      slogan: t("carouselSlides.0.slogan"),
     },
     {
       src: heroimg2,
-      title: t("catLinkAbout"),
-      slogan: "Precision Engineering, Innovative Design, Unparalleled Service",
+      slogan: t("carouselSlides.1.slogan"),
     },
     {
       src: heroimg3,
-      title: t("catLinkProducts"),
-      slogan: "Exceeding Expectations, Building Dreams, Delivering Excellence",
+      slogan: t("carouselSlides.2.slogan"),
     },
     {
       src: heroimg4,
-      title: t("catLinkServices"),
-      slogan: "Unleashing Creativity, Transforming Spaces, Inspiring Vision",
+      slogan: t("carouselSlides.3.slogan"),
     },
   ];
 
   return (
     <div>
       <Suspense fallback={<div className="fixed">Loading...</div>}>
-        <div className="h-[calc(100vh-80px)] min-h-[38rem] ">
+        <div className=" sm:h-[calc(100vh-80px)] sm:min-h-[30rem]  ">
           {/* @ts-expect-error Server Component */}
           <Hero caroucelSlides={caroucelSlides} />
         </div>

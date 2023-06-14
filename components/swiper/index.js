@@ -36,11 +36,11 @@ export default function App({ caroucelSlides, locale }) {
         className="mySwiper h-full cursor-grab  "
       >
         {caroucelSlides?.map((slide, index) => (
-          <SwiperSlide className=" swiperSlide  overflow-hidden" key={index}>
+          <SwiperSlide className=" swiperSlide   overflow-hidden" key={index}>
             <div className="relative h-full flex items-end justify-center ">
               <span className="bg-black w-full h-full absolute opacity-20"></span>
               <h1
-                className="text-white text-4xl opacity-85 font-semibold absolute z-10  p-6 mb-28  "
+                className="text-white text-2xl md:text-4xl opacity-85 font-semibold absolute z-10  p-6 mb-28  "
                 data-swiper-parallax="-750"
               >
                 {slide.slogan}
@@ -48,7 +48,7 @@ export default function App({ caroucelSlides, locale }) {
               <Image
                 src={slide.src}
                 alt=""
-                className={`object-cover h-full  `}
+                className={`object-cover h-screen sm:h-full  `}
               />
             </div>
           </SwiperSlide>

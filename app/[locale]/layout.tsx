@@ -1,13 +1,22 @@
 import "./globals.css";
-import { Inter, Roboto } from "next/font/google";
+import {
+  Baloo_Bhaijaan_2,
+  Roboto,
+  Alexandria,
+} from "next/font/google";
 import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const bloo = Baloo_Bhaijaan_2({
+  weight: ["600", "400", "800", "700"],
+  style: ["normal"],
+  subsets: ["arabic"],
+  display: "swap",
+});
 const roboto = Roboto({
-  weight: ["100", "700"],
+  weight: ["100", "300", "400", "500", "900", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
@@ -35,7 +44,9 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={` ${locale === "en" ? inter.className : roboto.className}`}
+        className={` ${
+          locale === "ar" ? `${bloo.className}` : roboto.className
+        }`}
       >
         <Header />
         {children}

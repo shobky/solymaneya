@@ -14,8 +14,8 @@ export default function Menu({ locale, children }) {
 
   return (
     <>
-      <button onClick={handleMenu} className={` px-9 border-y-0     h-20 
-       ${locale === "ar" ? " border-l-0 border-r-black" : " border-r-0 border-l-black"}
+      <button onClick={handleMenu} className={` px-9 border-y-0  h-20 
+       ${locale === "ar" ? " border-l-0 border-r-black " : " border-r-0 border-l-black "}
        hover:bg-white hover:invert hover:border-0 `
       }>
         {isMenuOpen ? (
@@ -33,7 +33,6 @@ export default function Menu({ locale, children }) {
       <nav className={isMenuOpen ? styles.container : styles.container__hiidden}>
         {children}
       </nav>
-
     </>
   );
 }
