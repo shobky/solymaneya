@@ -1,0 +1,37 @@
+{
+  "home": {
+    "logo": "Al Solimania",
+    "subLogo": "Engineering & Supplies",
+    "page": "home",
+    "btn": "Contact",
+    "heroText1": "Experience Excellence with Al-Solimania.",
+    "heroText2": "Your Trusted Partner in Engineering and Supplies.",
+    "catLinkServices": "Services",
+    "catLinkProducts": "Products",
+    "catLinkAbout": "About us",
+    "about1": "Al-Solimania Company for Contracting and Electrical Supplies is an Egyptian company that provides the highest levels of quality in the field of contracting and electrical supplies. ",
+    "about2": "Established in 2012, the company has achieved outstanding growth rates to become one of the leading companies in the field of supplies, contracting, and designing of electrical networks, as well as manufacturing electrical panels to meet the requirements of the local market. In 2017, Al-Solimania Company witnessed significant innovation in the electrical contracting sector, becoming one of the leading companies in the design and implementation of electrical works, specifically in the hospital sector, industrial sector, and major administrative institutions."
+  },
+  "nav": {
+    "supplyWorks": "Supply works",
+    "mechanicSupplies": "Mechanic supplies",
+    "electricSupplies": "Electric supplies",
+    "contractingWorks": "Contracting works",
+    "mechanicContracts": "Mechanic contracts",
+    "decorationsAndFinishes": "Decorations and Finishes",
+    "electricalWorks": "Electrical works",
+    "mechanicalWorks": "Mechanical works",
+    "turningWorks": "Turning works",
+    "steamBoilersAndHeatingNetworks": "Steam boilers and heating networks",
+    "machineryManufacturing": "Machinery manufacturing",
+    "export": "Export",
+    "ourProduct": "Our product",
+    "maintenanceContracts": "Maintenance contracts",
+    "previousWorks": "Our previous works",
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact us",
+    "services": "Services",
+    "products": "Products"
+  }
+}

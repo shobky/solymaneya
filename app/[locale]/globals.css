@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #3870ff;
+  --primary-hoverd: #2856cc;
+  --inverted-primary: #C78F00;
+}
+
+/* pangination on the hero section swiper */
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  padding: 5px;
+  z-index: 10;
+}
+
+
+/* Styling when the language is Arabic */
+.body-ar {
+  text-align: right;
+}
+
+.flexRowar {
+  flex-direction: row-reverse;
+}
+.flexColar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.floatLeft {
+  float: left !important;
+}
+.justifyLeft {
+  justify-content: left !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-hoverd);
+}
