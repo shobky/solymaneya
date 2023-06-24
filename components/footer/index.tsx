@@ -7,9 +7,9 @@ export default function Footer() {
   const locale = useLocale();
   return (
     <div
-      className={`min-h-[34rem] ${
+      className={`min-h-[28rem] ${
         locale === "ar" && " text-right"
-      }  relative flex flex-col bg-zinc-900  w-full  text-white pb-24 xl:pb-0 `}
+      }  relative flex flex-col bg-neutral-950  w-full  text-white pb-24 xl:pb-0 `}
     >
       <p className="text-3xl px-5 py-10 md:p-12  font-medium">{t("logo")}</p>
       <Nav isHeader={false} />

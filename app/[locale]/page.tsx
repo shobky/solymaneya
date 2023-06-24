@@ -34,12 +34,14 @@ export default function Home() {
   return (
     <div>
       <Suspense fallback={<div className="fixed">Loading...</div>}>
-        <div className=" sm:h-[calc(100vh-80px)] sm:min-h-[30rem]  ">
+        <div className=" max-h-[850px] sm:h-[calc(100vh-80px)] sm:min-h-[30rem]  ">
           {/* @ts-expect-error Server Component */}
           <Hero caroucelSlides={caroucelSlides} />
         </div>
-        <SubHero />
-        <Catalog />
+        <div className="grid gap-32 py-32 ">
+          <SubHero />
+          <Catalog />
+        </div>
       </Suspense>
     </div>
   );

@@ -10,25 +10,25 @@ export default function Catalog() {
   const t = useTranslations("catalog");
   const locale = useLocale();
   return (
-    <div className=" mb-[35vh] min-h-[65rem] md:min-h-[38rem]  md:mx-8 flex flex-col items-center gap-6  ">
+    <div className=" min-h-[65rem] md:min-h-[38rem]  md:mx-8 flex flex-col items-center gap-6 pb-12 ">
         <p className="text-white p-4  text-lg bg-[--primary] w-32 text-center cursor-not-allowed box-border">
         {t("services")}
       </p>
       <div className="flex  justify-center gap-3  flex-wrap">
-        <div className=" w-[90%] md:w-[23%]  shadow-lg ">
+        <div className=" w-[90%] lg:w-[24%] md:w-[23%]  shadow-sm ">
           <Image
             width="600"
             height="900"
             src={mechanical}
             alt=""
-            className=" object-cover w-full h-48 "
+            className=" object-cover w-full h-60 "
           />
           <div
-            className={` border border-zinc-200   border-t-0 p-3 h-72 grid
+            className={` border border-zinc-200   border-t-0 p-3 h-72 overflow-y-scroll grid
           ${locale === "ar" && "text-right"}
           `}
           >
-            <p className="font-semibold text-2xl mb-4">
+            <p className="font-semibold text-2xl  mb-4">
               {t("supplyWorks.title")}
             </p>
             <p>{t("supplyWorks.description")}</p>
@@ -40,16 +40,16 @@ export default function Catalog() {
             <Link href="/">{t("link")}</Link>
           </div>
         </div>
-        <div className=" w-[90%] md:w-[23%] shadow-lg ">
+        <div className=" w-[90%] lg:w-[24%] md:w-[23%] shadow-sm ">
           <Image
             width="250"
             height="250"
             src={staticPowder}
             alt=""
-            className=" object-cover w-full h-48 "
+            className=" object-cover w-full h-60 "
           />
           <div
-            className={` border border-zinc-200   border-t-0 p-3 h-72 grid
+            className={` border border-zinc-200   border-t-0 p-3 h-72 overflow-y-scroll grid
           ${locale === "ar" && "text-right"}
           `}
           >
@@ -62,16 +62,16 @@ export default function Catalog() {
             <Link href="/">{t("link")}</Link>
           </div>
         </div>
-        <div className=" w-[90%] md:w-[23%] shadow-lg ">
+        <div className=" w-[90%] lg:w-[24%] md:w-[23%] shadow-sm ">
           <Image
             width="250"
             height="250"
             src={steemer}
             alt=""
-            className=" object-cover w-full h-48 "
+            className=" object-cover w-full h-60 "
           />
           <div
-            className={` border border-zinc-200   border-t-0 p-3 h-72 grid
+            className={` border border-zinc-200   border-t-0 p-3 h-72 overflow-y-scroll grid
           ${locale === "ar" && "text-right"}
           `}
           >
@@ -93,16 +93,16 @@ export default function Catalog() {
             <Link href="/">{t("link")}</Link>
           </div>
         </div>
-        <div className=" w-[90%] md:w-[23%] shadow-lg ">
+        <div className=" w-[90%] lg:w-[24%] md:w-[23%] shadow-sm ">
           <Image
             width="250"
             height="250"
             src={electric}
             alt=""
-            className=" object-cover w-full h-48 "
+            className=" object-cover w-full h-60 "
           />
           <div
-            className={` border border-zinc-200   border-t-0 p-3 h-72 grid
+            className={` border border-zinc-200   border-t-0 p-3 h-72 overflow-y-scroll grid
           ${locale === "ar" && "text-right"}
           `}
           >

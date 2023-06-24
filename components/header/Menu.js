@@ -30,7 +30,7 @@ export default function Menu({ locale, children }) {
           />
         )}
       </button>
-      <nav className={isMenuOpen ? styles.container : styles.container__hiidden}>
+      <nav onClick={handleMenu} className={isMenuOpen ? styles.container : styles.container__hiidden}>
         {children}
       </nav>
     </>

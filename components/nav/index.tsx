@@ -1,90 +1,104 @@
 import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 import React from "react";
+
 export default function Nav({ isHeader }: { isHeader: boolean }) {
   const t = useTranslations("nav");
   const locale = useLocale();
+
   return (
     <div
-      className={`${
-        locale === "ar" && "flex-row-reverse text-right  justify-end"
-      } ${isHeader && 'overflow-y-scroll sm:overflow-none'}  h-[100%] md:h-full  grid xl:flex flex-nowrap  lg:text-lg p-5 md:p-12 gap-6 md:justify-between `}
+      className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 p-5 sm:p-12 text-md lg:text-lg ${
+        locale === "ar" && "justify-end float-right  w-full"
+      }`}
+      style={locale === "ar" ? { direction: "rtl" } : {}}
     >
-      <ul className="font-medium text-2xl md:text-3xl  ">
-        <li className="hover:text-[--primary] cursor-pointer">{t("home")}</li>
-        <li className="hover:text-[--primary] cursor-pointer">{t("about")}</li>
-        <li className="hover:text-[--primary] cursor-pointer">
-          {t("services")}
+      <ul className="w-fit font-semibold">
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link href={`${locale}/`}>{t("home")}</Link>
         </li>
-        <li className="hover:text-[--primary] cursor-pointer">
-          {t("products")}
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("about")}</li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("services")}</li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("products")}</li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("contact")}</li>
+      </ul>
+      <ul className="w-fit">
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/electrical_work`}>
+            {t("electricalWorks")}
+          </Link>
         </li>
-        <li className="hover:text-[--primary] cursor-pointer">
-          {t("contact")}
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/export`}>
+            {t("export")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/our_product`}>
+            {t("ourProduct")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/maintenance_contracts`}>
+            {t("maintenanceContracts")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/previous_work`}>
+            {t("previousWorks")}
+          </Link>
         </li>
       </ul>
-      <div className=" flex  flex-col md:flex-row flex-nowrap  text-lg md:text-md lg:text-lg  gap-6 justify-between w-[calc(100vw-7rem)] xl:w-3/4">
-        <ul>
-          <li className="hover:text-[--primary] cursor-pointer">
-            {t("electricalWorks")}
-          </li>
-          <li className="hover:text-[--primary] cursor-pointer">
-            {t("export")}
-          </li>
-          <li className="hover:text-[--primary] cursor-pointer">
-            {t("ourProduct")}
-          </li>
-          <li className="hover:text-[--primary] cursor-pointer">
-            {t("maintenanceContracts")}
-          </li>
-          <li className="hover:text-[--primary] cursor-pointer">
-            {t("previousWorks")}
-          </li>
-        </ul>
-        <ul className="lg:flex  justify-between gap-6 xl:flex-col xl:gap-0 lg:w-[calc(50%-6rem)] md:h-0  xl:w-1/4">
-          <div>
-            <label className=" font-semibold opacity-60 ">
-              {t("supplyWorks")}
-            </label>
-            <ul className=" mb-3">
-              <li className="hover:text-[--primary] cursor-pointer">
-                {t("mechanicSupplies")}
-              </li>
-              <li className="hover:text-[--primary] cursor-pointer">
-                {t("electricSupplies")}
-              </li>
-            </ul>
-          </div>
-          <div>
-            <label className=" font-semibold opacity-60 ">
-              {t("contractingWorks")}
-            </label>
-            <ul>
-              <li className="hover:text-[--primary] cursor-pointer">
-                {t("mechanicContracts")}
-              </li>
-              <li className="hover:text-[--primary] cursor-pointer">
-                {t("decorationsAndFinishes")}
-              </li>
-            </ul>
-          </div>
-        </ul>
-        <ul>
-          <label className=" font-semibold opacity-60 ">
-            {t("mechanicalWorks")}
-          </label>
-          <ul>
-            <li className="hover:text-[--primary] cursor-pointer">
-              {t("turningWorks")}
-            </li>
-            <li className="hover:text-[--primary] cursor-pointer">
-              {t("steamBoilersAndHeatingNetworks")}
-            </li>
-            <li className="hover:text-[--primary] cursor-pointer">
-              {t("machineryManufacturing")}
-            </li>
-          </ul>
-        </ul>
-      </div>
+
+      <ul className="w-fit">
+        <label className="text-medium opacity-50">{t("mechanicalWorks")}</label>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/turningWork`}>
+            {t("turningWorks")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link
+            locale={locale}
+            href={`/${locale}/steam_boilers_and_heating_networks`}
+          >
+            {t("steamBoilersAndHeatingNetworks")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/machinery_manufacturing`}>
+            {t("machineryManufacturing")}
+          </Link>
+        </li>
+      </ul>
+      <ul className="w-fit">
+        <label className="text-medium opacity-50">{t("supplyWorks")}</label>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/mechanic_supplies`}>
+            {t("mechanicSupplies")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/electric_supplies`}>
+            {t("electricSupplies")}
+          </Link>
+        </li>
+      </ul>
+      <ul className="w-fit">
+        <label className="text-medium opacity-50">
+          {t("contractingWorks")}
+        </label>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/mechanic_contracts`}>
+            {t("mechanicContracts")}
+          </Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link locale={locale} href={`/${locale}/decorations_and_finishes`}>
+            {t("decorationsAndFinishes")}
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }
