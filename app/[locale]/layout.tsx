@@ -46,7 +46,7 @@ export default function RootLayout({
       <body
         className={` ${
           locale === "ar" ? `${bloo.className}` : roboto.className
-        }`}
+        } max-w-[2000px] m-auto `}
       >
         <Header />
         {children}
