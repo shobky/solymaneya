@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -57,51 +57,3 @@ export default function Caroucel({ caroucelSlides, locale }) {
     </>
   );
 }
-
-
-
-// Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import Image from "next/image";
-// import Link from "next/link";
-
-// import "swiper/css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
-// import { Pagination } from "swiper";
-
-// export default function Caroucel({
-//   caroucelSlides,
-// }: {
-//   caroucelSlides: { src: string; title: string }[];
-// }) {
-//   return (
-//     <Swiper
-//       slidesPerView={4}
-//       spaceBetween={3}
-//       style={{padding: "45px 0"}}
-//       className={`mt-[25px]  w-[70vw]`}
-//       pagination={{
-//         clickable: true,
-//       }}
-
-//       modules={[Pagination]}
-//     >
-//       {caroucelSlides?.map((slide, index) => (
-//         <SwiperSlide key={index}>
-//           <div className="h-[25vh] relative cursor-grab grid place-content-center hover:scale-90 ease-in-out duration-200">
-//             <Image
-//               src={slide.src}
-//               alt=""
-//               fill
-//               className="object-cover"
-//             />
-//             <Link className="text-white z-[2] text-2xl" href="/">
-//               {slide.title}
-//             </Link>
-//           </div>
-//         </SwiperSlide>
-//       ))}
-//     </Swiper>
-//   );
-// }
