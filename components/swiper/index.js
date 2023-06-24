@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import { Parallax, Pagination, Navigation } from "swiper";
 import Image from "next/image";
 
-export default function App({ caroucelSlides, locale }) {
+export default function Caroucel({ caroucelSlides, locale }) {
   return (
     <>
       <Swiper

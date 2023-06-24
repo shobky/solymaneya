@@ -1,9 +1,9 @@
 import styles from "./hero.module.css";
 
-import Caroucel from "../swiper";
 import { useLocale, useTranslations } from "next-intl";
 import heroimg3 from "@/public/images/hero2.jpg";
 import Image from "next/image";
+import Caroucel from "../swiper";
 
 export default async function Hero({
   caroucelSlides,
