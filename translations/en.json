@@ -87,5 +87,18 @@
         "Copper and aluminum cables"
       ]
     }
+  },
+  "electricalWorkPage": {
+    "title": "Electrical Work",
+    "1": "Electrical distribution panels and control panels.",
+    "2": "Power factor correction panels.",
+    "3": "ATS panels.",
+    "4": "Copper and aluminum cables.",
+    "5": "Variable speed drives and PLC units.",
+    "6": "Lighting units and cable holders.",
+    "7": "Automatic circuit breakers, contactors, and overload relays.",
+    "8": "Motors, generators, and power transformers.",
+    "9": "Control systems and surveillance cameras.",
+    "10": "Fire alarm devices and firefighting equipment."
   }
 }

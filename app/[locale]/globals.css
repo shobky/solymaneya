@@ -51,3 +51,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--primary-hoverd);
 }
+
+
+/* image hover in catalog pages */
+
+.group:hover .group:not(:hover) .theimage {
+  opacity: 0.5;
+}
