@@ -64,7 +64,7 @@ const imageArray = [
 ];
 export default function EwImgs() {
   return (
-    <div className="w-full lg:w-[60%] flex flex-wrap bg-black mt-12 lg:mt-0 ">
+    <div className="w-full lg:w-[60%] flex flex-wrap bg-black mt-12 lg:mt-0  ">
       {imageArray.map((src: StaticImageData, i: number) => (
         <Image
           className="w-1/2 lg:w-1/4 aspect-square  object-cover  ease-in-out duration-150 opacity-70 hover:opacity-100 "
