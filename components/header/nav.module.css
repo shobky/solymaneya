@@ -1,6 +1,8 @@
 @media (width >= 1280px) {
   .container {
-    max-height:600px;
+    box-shadow: 0 15px 15px -7px rgba(192, 192, 192, 0.685);
+
+    max-height: 600px;
     padding-bottom: 5px;
     box-sizing: border-box;
     position: absolute;
@@ -16,7 +18,7 @@
   }
 
   .container__hiidden {
-    max-height:600px;
+    max-height: 600px;
     position: absolute;
     width: 100%;
     top: -100vh;
@@ -29,7 +31,8 @@
 }
 @media (width >= 768px) {
   .container {
-    max-height:600px;
+    box-shadow: 0 15px 15px -7px rgba(192, 192, 192, 0.685);
+    max-height: 600px;
     padding-bottom: 5px;
     box-sizing: border-box;
     position: absolute;
@@ -45,7 +48,7 @@
   }
 
   .container__hiidden {
-    max-height:600px;
+    max-height: 600px;
     position: absolute;
     width: 100%;
     top: -100vh;
@@ -59,7 +62,8 @@
 
 @media (width < 768px) {
   .container {
-    max-height:600px;
+    box-shadow: 0 15px 15px -7px rgba(192, 192, 192, 0.685);
+    max-height: 600px;
     padding-bottom: 5px;
     box-sizing: border-box;
     position: absolute;
@@ -75,7 +79,7 @@
   }
 
   .container__hiidden {
-    max-height:600px;
+    max-height: 600px;
     position: absolute;
     width: 100%;
     top: -100vh;
