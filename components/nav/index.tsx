@@ -53,7 +53,7 @@ export default function Nav({ isHeader }: { isHeader: boolean }) {
       <ul className="w-fit">
         <label className="text-medium opacity-50">{t("mechanicalWorks")}</label>
         <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
-          <Link locale={locale} href={`/${locale}/turningWork`}>
+          <Link locale={locale} href={`/${locale}/lathing_work`}>
             {t("turningWorks")}
           </Link>
         </li>

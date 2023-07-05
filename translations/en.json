@@ -33,7 +33,7 @@
     "decorationsAndFinishes": "Decorations and Finishes",
     "electricalWorks": "Electrical work",
     "mechanicalWorks": "Mechanical work",
-    "turningWorks": "Turning work",
+    "turningWorks": "Lathing work",
     "steamBoilersAndHeatingNetworks": "Steam boilers and heating networks",
     "machineryManufacturing": "Machinery manufacturing",
     "export": "Export",
@@ -100,5 +100,47 @@
     "8": "Motors, generators, and power transformers.",
     "9": "Control systems and surveillance cameras.",
     "10": "Fire alarm devices and firefighting equipment."
+  },
+  "exportPage": {
+    "title": "Export Work",
+    "1": "Export of electrostatic powder.",
+    "2": "coating for aluminum sections coated with electrostatic paint",
+    "3": "Export of electrical panels according to required specifications, standard, control, empty, and the possibility of manufacturing according to the required specifications for each country and according to the international code."
+  },
+  "product": {
+    "title": "Our Product",
+    "1": "Manufacturing of electrical panels",
+    "2": "Meter panels for apartments and shops, single-phase and three-phase",
+    "3": "Line panels from 6 lines to 48 lines",
+    "4": "Booths and covers of all sizes",
+    "5": "Control panels according to the required specification",
+    "6": "Low current panels",
+    "7": "Low voltage power panels",
+    "8": "Empty panels of all sizes",
+    "9": "Network racks of all dimensions"
+  },
+  "maintain": {
+    "title": "Maintenance contracts",
+    "1": "The company has maintenance contracts for monitoring and maintenance",
+    "2": "Distribution panels, ATS panels, and lighting units",
+    "3": "Surveillance cameras",
+    "4": "Fire alarm systems",
+    "5": "(Power generators - Air compressors - Production lines - Boilers and steam networks - Gas and diesel igniters)",
+    "6": "Central air conditioning systems",
+    "7": "General facility maintenance",
+    "8": "These contracts do not include spare parts"
+  },
+  "lathing": {
+    "title": "Lathing work"
+  },
+
+  "boilers": {
+    "title": "Steam boilers and heating networks"
+  },
+  "manfuc": {
+    "title": "Machinery manufacturing"
+  },
+  "mecsup": {
+    "title": " Mechanic supplies"
   }
 }
