@@ -9,7 +9,6 @@ import image8 from "@/public/catalog/lathing/lathing8.jpg";
 import image9 from "@/public/catalog/lathing/lathing9.jpg";
 import image10 from "@/public/catalog/lathing/lathing10.jpg";
 import image11 from "@/public/catalog/lathing/lathing11.jpg";
-import image12 from "@/public/catalog/lathing/lathing12.jpg";
 import image13 from "@/public/catalog/lathing/lathing13.jpg";
 import image14 from "@/public/catalog/lathing/lathing14.jpg";
 import image15 from "@/public/catalog/lathing/lathing15.jpg";
@@ -51,7 +50,6 @@ const imageArray = [
   image9,
   image10,
   image11,
-  image12,
   image13,
   image14,
   image15,
