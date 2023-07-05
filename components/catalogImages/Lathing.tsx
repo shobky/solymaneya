@@ -13,28 +13,6 @@ import image13 from "@/public/catalog/lathing/lathing13.jpg";
 import image14 from "@/public/catalog/lathing/lathing14.jpg";
 import image15 from "@/public/catalog/lathing/lathing15.jpg";
 import image16 from "@/public/catalog/lathing/lathing16.jpg";
-import image17 from "@/public/catalog/lathing/lathing17.jpg";
-import image18 from "@/public/catalog/lathing/lathing18.jpg";
-import image19 from "@/public/catalog/lathing/lathing19.jpg";
-import image20 from "@/public/catalog/lathing/lathing20.jpg";
-import image21 from "@/public/catalog/lathing/lathing21.jpg";
-import image22 from "@/public/catalog/lathing/lathing22.jpg";
-import image23 from "@/public/catalog/lathing/lathing23.jpg";
-import image24 from "@/public/catalog/lathing/lathing24.jpg";
-import image25 from "@/public/catalog/lathing/lathing25.jpg";
-import image26 from "@/public/catalog/lathing/lathing26.jpg";
-import image27 from "@/public/catalog/lathing/lathing27.jpg";
-import image28 from "@/public/catalog/lathing/lathing28.jpg";
-import image29 from "@/public/catalog/lathing/lathing29.jpg";
-import image30 from "@/public/catalog/lathing/lathing30.jpg";
-import image31 from "@/public/catalog/lathing/lathing31.jpg";
-import image32 from "@/public/catalog/lathing/lathing32.jpg";
-import image33 from "@/public/catalog/lathing/lathing33.jpg";
-import image34 from "@/public/catalog/lathing/lathing34.jpg";
-import image35 from "@/public/catalog/lathing/lathing35.jpg";
-import image36 from "@/public/catalog/lathing/lathing36.jpg";
-import image37 from "@/public/catalog/lathing/lathing37.jpg";
-import image38 from "@/public/catalog/lathing/lathing38.jpg";
 
 import Image, { StaticImageData } from "next/image";
 
@@ -53,29 +31,7 @@ const imageArray = [
   image13,
   image14,
   image15,
-  image16,
-  image17,
-  image18,
-  image19,
-  image20,
-  image21,
-  image22,
-  image23,
-  image24,
-  image25,
-  image26,
-  image27,
-  image28,
-  image29,
-  image30,
-  image31,
-  image32,
-  image33,
-  image34,
-  image35,
-  image36,
-  image37,
-  image38,
+  image16
 ];
 export default function Lathing() {
   return (

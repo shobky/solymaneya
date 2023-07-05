@@ -15,19 +15,6 @@ import image13 from "@/public/catalog/ew/ew13.jpg";
 import image14 from "@/public/catalog/ew/ew14.jpg";
 import image15 from "@/public/catalog/ew/ew15.jpg";
 import image16 from "@/public/catalog/ew/ew16.jpg";
-import image17 from "@/public/catalog/ew/ew17.jpg";
-import image18 from "@/public/catalog/ew/ew18.jpg";
-import image19 from "@/public/catalog/ew/ew19.jpg";
-import image20 from "@/public/catalog/ew/ew20.jpg";
-import image21 from "@/public/catalog/ew/ew21.jpg";
-import image22 from "@/public/catalog/ew/ew22.jpg";
-import image23 from "@/public/catalog/ew/ew23.jpg";
-import image24 from "@/public/catalog/ew/ew24.jpg";
-import image25 from "@/public/catalog/ew/ew25.jpg";
-import image26 from "@/public/catalog/ew/ew26.jpg";
-import image27 from "@/public/catalog/ew/ew27.jpg";
-import image28 from "@/public/catalog/ew/ew28.jpg";
-import image29 from "@/public/catalog/ew/ew29.jpg";
 import Image, { StaticImageData } from "next/image";
 
 const imageArray = [
@@ -46,21 +33,7 @@ const imageArray = [
   image13,
   image14,
   image15,
-  image16,
-  image17,
-  image18,
-  image19,
-  image20,
-  image21,
-  image22,
-  image23,
-  image24,
-  image25,
-  image26,
-  image27,
-  image28,
-  image29,
-  image30,
+  image16
 ];
 export default function EwImgs() {
   return (

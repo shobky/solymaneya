@@ -3,11 +3,6 @@ import image2 from "@/public/catalog/manfuc/manfuc2.jpg";
 import image3 from "@/public/catalog/manfuc/manfuc3.jpg";
 import image4 from "@/public/catalog/manfuc/manfuc4.jpg";
 import image5 from "@/public/catalog/manfuc/manfuc5.jpg";
-import image6 from "@/public/catalog/manfuc/manfuc6.jpg";
-import image7 from "@/public/catalog/manfuc/manfuc7.jpg";
-import image8 from "@/public/catalog/manfuc/manfuc8.jpg";
-import image9 from "@/public/catalog/manfuc/manfuc9.jpg";
-
 import Image, { StaticImageData } from "next/image";
 
 const imageArray = [
@@ -15,11 +10,7 @@ const imageArray = [
   image2,
   image3,
   image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
+  image5
 ];
 export default function Export() {
   return (
