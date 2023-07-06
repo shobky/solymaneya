@@ -22,8 +22,7 @@ export const metadata = {
   title: "Solymaneya",
   description:
     "Al-Solymaneya Company for Contracting and Electrical Supplies is an Egyptian company that provides the highest levels of quality in the field of contracting and electrical supplies.",
-  name: "google-site-verification",
-  content: "k7ryO8XhvHl2PPvk3z3Z9OE5Z0XyM1CLrBNp5Gjvwqo",
+  "google-site-verification": "k7ryO8XhvHl2PPvk3z3Z9OE5Z0XyM1CLrBNp5Gjvwqo",
 };
 
 export default function RootLayout({
