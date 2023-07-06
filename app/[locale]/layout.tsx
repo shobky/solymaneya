@@ -1,9 +1,5 @@
 import "./globals.css";
-import {
-  Baloo_Bhaijaan_2,
-  Roboto,
-  Alexandria,
-} from "next/font/google";
+import { Baloo_Bhaijaan_2, Roboto, Alexandria } from "next/font/google";
 import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import Header from "@/components/header/Header";
@@ -24,7 +20,10 @@ const roboto = Roboto({
 
 export const metadata = {
   title: "Solymaneya",
-  description: "Al-Solymaneya Company for Contracting and Electrical Supplies is an Egyptian company that provides the highest levels of quality in the field of contracting and electrical supplies.",
+  description:
+    "Al-Solymaneya Company for Contracting and Electrical Supplies is an Egyptian company that provides the highest levels of quality in the field of contracting and electrical supplies.",
+  name: "google-site-verification",
+  content: "k7ryO8XhvHl2PPvk3z3Z9OE5Z0XyM1CLrBNp5Gjvwqo",
 };
 
 export default function RootLayout({
