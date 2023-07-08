@@ -9,11 +9,11 @@ export default function OurProductPage() {
 
   return (
     <div
-      className={`flex flex-col lg:flex-row justify-between align-top  lg:p-12 gap-2 min-h-screen
+      className={`flex flex-col lg:flex-row justify-between align-top  lg:py-12 lg:px-6 gap-2 min-h-screen
       ${locale === "ar" && "lg:flex lg:flex-row-reverse text-right"}
       `}
     >
-      <div className=" w-full lg:w-[35%] h-fit p-5 ">
+      <div className=" w-full lg:w-[35%] h-fit px-5 ">
         <h1 className=" text-7xl font-medium">{t("title")}</h1>
         <ul
           className={` text-zinc-800 list-decimal leading-loose ml-6 mt-5 h-fit  mb-3 lg:mb-10

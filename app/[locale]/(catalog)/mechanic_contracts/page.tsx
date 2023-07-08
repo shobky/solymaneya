@@ -1,34 +1,34 @@
 import { useLocale, useTranslations } from "next-intl";
 import React, { Suspense, lazy } from "react";
 import Link from "next/link";
-const Manfuc = lazy(() => import("@/components/catalogImages/Manfuc"));
-export default function ManfucPage() {
-  const t = useTranslations("manfuc");
+const Meccon = lazy(() => import("@/components/catalogImages/Meccon"));
+export default function MecconPage() {
+  const t = useTranslations("contracts");
   const locale = useLocale();
 
   return (
     <div
-      className={`flex flex-col lg:flex-row justify-between align-top  lg:py-12 lg:px-6 gap-2 min-h-screen
+      className={`flex flex-col lg:flex-row justify-between align-top lg:py-12 lg:px-6 gap-2 min-h-screen
       ${locale === "ar" && "lg:flex lg:flex-row-reverse text-right"}
       `}
     >
       <div className=" w-full lg:w-[35%] h-fit px-5 ">
-        <h1 className=" text-6xl font-medium">{t("title")}</h1>
+        <h1 className=" text-7xl font-medium">{t("meccon")}</h1>
         <br />
         <br />
 
         <Link
           className="float-right lg:float-none"
-          href={`/${locale}/mechanic_supplies`}
+          href={`/${locale}/decorations_and_finishes`}
         >
           Next:{" "}
           <span className="underline text-[--primary] cursor-pointer">
-            Mechanic supplies{" "}
+            Decorations and Finishes{" "}
           </span>
         </Link>
       </div>
       <Suspense>
-        <Manfuc />
+        <Meccon />
       </Suspense>
     </div>
   );
