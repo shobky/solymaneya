@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
 :root {
   --primary: #3870ff;
   --primary-hoverd: #2856cc;

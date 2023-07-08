@@ -5,6 +5,7 @@ export default function SubHero() {
   const locale = useLocale();
   return (
     <div
+      id="about"
       className={` ${
         locale === "ar" && "text-right"
       } w-full  flex flex-col items-center justify-center gap-6 border-black p-5  rounded-[70px]    `}

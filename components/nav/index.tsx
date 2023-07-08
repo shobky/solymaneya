@@ -17,10 +17,16 @@ export default function Nav({ isHeader }: { isHeader: boolean }) {
         <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
           <Link href={`${locale}/`}>{t("home")}</Link>
         </li>
-        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("about")}</li>
-        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("services")}</li>
-        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("products")}</li>
-        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("contact")}</li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link href={`${locale}/#about`}>{t("about")}</Link>
+        </li>
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link href={`${locale}/#services`}>{t("services")}</Link>
+        </li>
+        {/* <li className=" active:text-[--primary] sm:hover:text-[--primary] ">{t("products")}</li> */}
+        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+          <Link href={`${locale}/#contact`}>{t("contact")}</Link>
+        </li>
       </ul>
       <ul className="w-fit">
         <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
@@ -43,11 +49,11 @@ export default function Nav({ isHeader }: { isHeader: boolean }) {
             {t("maintenanceContracts")}
           </Link>
         </li>
-        <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
+        {/* <li className=" active:text-[--primary] sm:hover:text-[--primary] ">
           <Link locale={locale} href={`/${locale}/previous_work`}>
             {t("previousWorks")}
           </Link>
-        </li>
+        </li> */}
       </ul>
 
       <ul className="w-fit">

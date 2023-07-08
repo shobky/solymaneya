@@ -46,6 +46,14 @@
     "services": "Services",
     "products": "Products"
   },
+  "contact": {
+    "adressTitle": "Adress",
+    "adress": "Eugenia & Ibrahim Tawfiq street, Al-Hassan tower, Al-Arab district - Port Said, Egypt",
+    "fax": "Fax number",
+    "office": "Office number",
+    "mobile": "Phone number",
+    "email": "Email"
+  },
   "catalog": {
     "services": "Services",
     "link": "And more...",
@@ -90,6 +98,7 @@
   },
   "electricalWorkPage": {
     "title": "Electrical Work",
+    "title2": "Electric Supplies",
     "1": "Electrical distribution panels and control panels.",
     "2": "Power factor correction panels.",
     "3": "ATS panels.",
@@ -135,12 +144,39 @@
   },
 
   "boilers": {
-    "title": "Steam boilers and heating networks"
+    "title": "Steam boilers and heating networks",
+    "1": "The boilers are manufactured according to European specifications, ensuring the highest efficiency with minimum energy consumption. ",
+    "1r": "They provide high protection against exceeding pressure or temperature limits. The boiler is supplied complete with all its components (safety devices, control panel, and all necessary safety equipment).",
+    "2": "We are also specialized in:",
+    "3": "Installation of boilers, heat exchangers, and their spare parts.",
+    "4": "Supplying and installing heating equipment for swimming pools.",
+    "5": "Supplying and installing steam, hot water, and air networks for services.",
+    "6": "Supplying spare parts for laundry equipment.",
+    "7": "Digital control for all boiler functions.",
+    "8": "Fast reaching of the desired temperature."
   },
   "manfuc": {
     "title": "Machinery manufacturing"
   },
   "mecsup": {
-    "title": " Mechanic supplies"
+    "title": " Mechanic supplies",
+    "p1": "The company undertakes contracts and maintenance for bathrooms of various sizes.",
+    "p2": "The company supplies and installs swimming pool heaters of various sizes using heat exchangers for hotels, resorts, sports clubs, and health facilities.",
+    "1": "Ball Bearings",
+    "2": "Mechanical Seals",
+    "3": "Water and Oil Pumps",
+    "4": "Air Lines",
+    "5": "Transmission Belt Spare Parts",
+    "6": "Electric Motors",
+    "7": "Furnace and Ignition Spare Parts",
+    "8": "Steam Boiler Spare Parts",
+    "9": "Supply of all Industrial Safety Equipment",
+    "10": "Supply of Electrostatic Powder",
+    "11": "Supply of Raw Materials",
+    "12": "General Supplies"
+  },
+  "contracts": {
+    "meccon": "Mechanical contacts",
+    "finishs": "Decorations and Finishs"
   }
 }

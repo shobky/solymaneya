@@ -6,12 +6,15 @@ import steemer from "@/public/products/steemer.jpg";
 import staticPowder from "@/public/products/staticPowder.jpg";
 import Image from "next/image";
 
-export default function Catalog() {
+export default function Services() {
   const t = useTranslations("catalog");
   const locale = useLocale();
   return (
-    <div className=" min-h-[65rem] md:min-h-[38rem]  md:mx-8 flex flex-col items-center gap-6 pb-12 ">
-        <p className="text-white p-4  text-lg bg-[--primary] w-32 text-center cursor-not-allowed box-border">
+    <div
+      id="services"
+      className=" min-h-[65rem] md:min-h-[38rem]  md:mx-8 flex flex-col items-center gap-6 pb-12 "
+    >
+      <p className="text-white p-4  text-lg bg-[--primary] w-32 text-center cursor-not-allowed box-border">
         {t("services")}
       </p>
       <div className="flex  justify-center gap-3  flex-wrap">
